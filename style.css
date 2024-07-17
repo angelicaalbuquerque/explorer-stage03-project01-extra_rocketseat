@@ -8,11 +8,11 @@
 /* color variables */
 
 :root {
-  --primary: #535971;
-  --secondary: #ff5374;
+  --blue10: #535971;
+  --pink10: #ff5374;
   --white: #ffffff;
-  --whitesmoke: #efefef;
-  --form-text: #4e4958;
+  --white20: #efefef;
+  --purple10: #4e4958;
 }
 
 /* general */
@@ -29,12 +29,12 @@ textarea {
 }
 
 body {
-  background-color: var(--whitesmoke);
+  background-color: var(--white20);
 }
 
 body::before {
   content: "";
-  background-color: var(--primary);
+  background-color: var(--blue10);
   height: 436px;
   width: 100%;
   position: absolute;
