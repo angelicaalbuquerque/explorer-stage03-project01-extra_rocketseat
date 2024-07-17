@@ -52,7 +52,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🎨 Layout
 
-Você pode visualizar o layout do projeto através [deste link](https://www.figma.com/file/rkDOHGPwwFtBNqEdHSuQPd/Projeto-02---Explorer?node-id=0%3A1), no [Figma](http://figma.com/). É preciso ter uma conta na plataforma para acessá-lo.
+Você pode visualizar o layout do projeto através [deste link](<https://www.figma.com/design/WNd8aBzEn13K6aoG0BAzrc/Stage-03---Formul%C3%A1rio-intermedi%C3%A1rio-(Copy)?node-id=10-2&t=VEqDZUhaensMl6ju-0>), no [Figma](http://figma.com/). É preciso ter uma conta na plataforma para acessá-lo.
 
 ## 📬 Entre em contato!
 
