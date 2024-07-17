@@ -72,7 +72,7 @@ form {
 
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 30px;
 }
 
 fieldset {
@@ -82,7 +82,7 @@ fieldset {
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
 .input-wrapper {
