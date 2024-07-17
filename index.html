@@ -26,7 +26,35 @@
       </p>
     </header>
 
-    <main></main>
+    <form id="mentorship-form">
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações pessoais</legend>
+
+          <div class="col-2">
+            <div class="input-wrapper">
+              <label for="mentorship-name">Nome</label>
+              <input type="text" id="mentorship-name">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mentorship-surname">Sobrenome</label>
+              <input type="text" id="mentorship-surname">
+            </div>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="mentorship-email">E-mail <span>(digite um e-mail válido)</span></label>
+            <input type="email" id="mentorship-email">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="mentorship-password">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input type="password" id="mentorship-password" minlength="6">
+          </div>
+        </div>
+      </fieldset>
+    </form>
 
     <footer></footer>
   </div>
