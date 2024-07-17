@@ -11,7 +11,10 @@
   --blue10: #535971;
   --pink10: #ff5374;
   --white: #ffffff;
+  --white10: #fafafc;
   --white20: #efefef;
+  --gray10: #e6e6f0;
+  --gray20: #c1bccc;
   --purple10: #4e4958;
 }
 
@@ -79,10 +82,21 @@ fieldset {
   border: none;
 }
 
+fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  color: var(--blue10);
+  line-height: 34px;
+  padding-bottom: 16px;
+  /* margin-bottom: 36px; */
+  width: 100%;
+  border-bottom: 1px solid var(--white20);
+}
+
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .input-wrapper {
@@ -90,7 +104,40 @@ fieldset {
   flex-direction: column;
 }
 
-.col-2 {
+.input-wrapper label {
+  color: var(--purple10);
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper span {
+  color: var(--gray20);
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 4px;
+}
+
+.input-wrapper input {
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--gray10);
+  background-color: var(--white10);
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--blue10);
+}
+
+.fieldset-wrapper .col-2 {
   display: flex;
-  gap: 22px;
+  gap: 20px;
+}
+
+.fieldset-wrapper .col-2 input {
+  width: 300px;
+}
+
+.fieldset-wrapper .col-3 > div:nth-child(1) {
+  width: 100%;
 }
