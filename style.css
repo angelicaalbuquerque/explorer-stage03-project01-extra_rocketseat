@@ -26,6 +26,15 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
+h3 {
+  font-size: 20px;
+  font-family: "Staatliches", sans-serif;
+  color: var(--blue10);
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 16px;
+}
+
 .page {
   width: 750px;
   margin: auto;
@@ -56,6 +65,8 @@ header h1 {
   font-family: "Staatliches", sans-serif;
   font-size: 48px;
   color: var(--white);
+  font-style: normal;
+  font-weight: 400;
 }
 
 header p {
@@ -88,9 +99,9 @@ fieldset legend {
   color: var(--blue10);
   line-height: 34px;
   padding-bottom: 16px;
-  /* margin-bottom: 36px; */
   width: 100%;
   border-bottom: 1px solid var(--white20);
+  margin-bottom: 16px;
 }
 
 .fieldset-wrapper {
@@ -129,15 +140,25 @@ fieldset legend {
   color: var(--blue10);
 }
 
-.fieldset-wrapper .col-2 {
+.col-2 {
   display: flex;
   gap: 20px;
 }
 
-.fieldset-wrapper .col-2 input {
+.col-2 input {
   width: 300px;
 }
 
-.fieldset-wrapper .col-3 > div:nth-child(1) {
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.col-3 > div:nth-child(1) {
   width: 100%;
+  margin-right: 32px;
+}
+
+.mentorship-first-name {
+  margin-top: 16px;
 }
