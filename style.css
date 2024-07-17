@@ -1,0 +1,23 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color variables */
+
+:root {
+  --primary: #535971;
+  --secondary: #ff5374;
+  --white: #ffffff;
+  --subtext-primary: #4e4958;
+  --aux-text-secondary: #efefef;
+}
+
+body,
+input,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
